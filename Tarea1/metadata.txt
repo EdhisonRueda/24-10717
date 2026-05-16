@@ -4,17 +4,17 @@ Usé la IA de la siguiente manera:
 Utilicé la IA solo como un tutor, profesor, o guía,
 pidiendole explícitamente que no resolviera los ejercicios directamente, sino que me
 explicara la teoría matemática y conceptual necesaria para resolver ciertos ejercicios y 
-además me ayudara a detectar errores en el código que yo no logré dectectar.
+además me ayudara a detectar errores en el código que yo no logré entontrar.
 
-=> No usé IA en los ejercicios de Zilly.
+=> No usé IA para resolver los ejercicios de Zilly.
 => En ejercicios de c++ la usé tal como mencioné en el parrafo anterior, para encontrar errores de 
 lógica o tipeo, sin embargo, la mayor parte de su uso fue  para aprender a como usar herramientas de c++
 o para aprender conceptos que no conocía (como por ejemplo la varianza o el coeficiente de correlación y sus formulas)
 
 IMPORTANTE (por lo menos para mí): en el archivo ex.cxx (el archivo con los ejercicios de C++) puse mis soluciones sin que imprimieran 
-nada, ningun mensaje, algun valor, ni escribí un main. Realmente mientras hacia los ejercicios si hice todo eso: puse que las funciones 
-imprimieran valores y/o textos para ir registrandolos en pantalla, para que se viera pues lo que hacian las funciones. sin embargo cuando fuí
+nada, ningun mensaje, algun valor, ni escribí nada en el main. Realmente mientras hacia los ejercicios si hice todo eso: puse que las funciones 
+imprimieran valores y/o textos para ir registrandolos en pantalla (en la consola), para que se viera pues lo que hacian las funciones. Sin embargo cuando fuí
 a poner tales soluciones en el archivo ex.cxx, consulté con la IA y me dijo que lo mejor era que pusiera las respuestas sin nada de
-impresiones, por algun tema de ustedes(los profesores) al momento de evaluar. así que le hice caso y borré todo lo que imprimía algo. 
-el objetivo de este mensaje es que sepan que si la evaluación sí requería que las funciones o el main imprimieran cosas en pantalla,
-yo lo hice y lo tengo guardado, por lo que si es necesario puedo enviarles el archivo correspondiente.
+impresiones, por algun tema de ustedes (los profesores) al momento de evaluar. Así que le hice caso y borré todo lo que imprimía algo. 
+El objetivo de este mensaje es que sepan que, si la evaluación sí requería que las funciones o el main imprimieran cosas en pantalla,
+yo lo hice originalmente y lo tengo guardado, por lo que si es necesario puedo enviarles el archivo con pruebas correspondiente.
