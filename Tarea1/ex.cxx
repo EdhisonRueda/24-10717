@@ -154,7 +154,7 @@ vector<char> hexakaidecapus_to_dec(vector<char> s){
     }
     vector<char> resultado_final; 
     for(int contador = resultado.size() - 1; contador >= 0; contador--) {
-        resultado_final.push_back(resultado[contador--]);
+        resultado_final.push_back(resultado[contador]);
     }
     return resultado_final;
 }
