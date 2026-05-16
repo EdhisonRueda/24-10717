@@ -1,3 +1,30 @@
-Z => Z => Z de_morgan1 := 5;
-Z => Z => Z de_morgan2 := 5;
-Z => Z succ := 5;
+sys.reset
+Z P := random(2)
+Z Q := random(2)
+Q
+P
+Z => Z not := fn(Z P) -> if(P, 0, 1);
+Z => Z => Z and := fn(Z P) -> fn(Z Q) -> if(P, Q, 0);
+Z => Z => Z or := fn(Z P) -> fn(Z Q) -> if(P, 1, Q);
+Z => Z => Z eq := fn(Z P) -> fn(Z Q) -> if(sub(P)(Q), 0, 1);
+eq(P)(Q)
+not(P)
+and(P)(Q)
+or(P)(Q)
+
+Z => Z => Z no_PyQ := fn(Z P) -> fn(Z Q) -> not(and(P)(Q));
+Z => Z => Z no_P_o_no_Q := fn(Z P) -> fn(Z Q) -> or(not(P))(not(Q));
+Z => Z => Z de_morgan1 := fn(Z P) -> fn(Z Q) -> eq(no_PyQ(P)(Q))(no_P_o_no_Q(P)(Q));
+de_morgan1(P)(Q)
+
+Z => Z => Z no_PoQ := fn(Z P) -> fn(Z Q) -> not(or(P)(Q));
+Z => Z => Z no_P_y_no_Q := fn(Z P) -> fn(Z Q) -> and(not(P))(not(Q));
+Z => Z => Z de_morgan2 := fn(Z P) -> fn(Z Q) -> eq(no_PoQ(P)(Q))(no_P_y_no_Q(P)(Q));
+de_morgan2(P)(Q)
+
+Z z := random(100)
+Z k := 1
+Z => Z cambio_signo := fn(Z k) -> sub(k)(0)
+Z => Z succ := fn(Z z) -> sub(cambio_signo(k))(z);
+z
+succ(z)
