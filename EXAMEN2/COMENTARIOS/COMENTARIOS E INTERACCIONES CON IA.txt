@@ -1,0 +1,27 @@
+COMENTARIOS E INTERACCIONES CON IA
+
+1. Fuentes de Información Utilizadas
+Durante el desarrollo y comprensión del algoritmo K-Means, me apoyé en los siguientes recursos:
+
+Wikipedia (K-medias): https://es.wikipedia.org/wiki/K-medias (proveido en el drive de la clase). Utilizado para repasar los fundamentos matemáticos de la asignación de puntos, el recálculo de centroides.
+
+Imágenes de Referencia (Adjuntas en esta carpeta): Utilizadas para visualizar la distribución espacial de los grupos y comprender gráficamente el objetivo del algoritmo de datos.
+
+2. Reporte de Interacciones con Inteligencia Artificial
+ Utilicé Inteligencia Artificial como un "tutor de programación" y consultor técnico. Las interacciones se centraron en las siguientes áreas clave:
+
+A. "Buscador de errores":
+Al principio, la funcion final (paso4) presentaba problemas de actualización de datos. La IA me ayudó a identificar un error de "variables sombra": estaba volviendo a declarar las variables clusters y centroides dentro del while, lo que creaba copias locales que se destruían al terminar el ciclo.
+
+B. Ayuda en diseño:
+Para cumplir con el requerimiento de la tarea de proveer el código en módulos separados, discutí con la IA cómo estructurar el proyecto (mi_Kmeans.h, operaciones.h), la gestión de entrada/salida (cargar_datos.h, gen_archivos.h). Además, la IA me explicó la necesidad y el funcionamiento de las Guardas de Inclusión (#ifndef, #define, #endif) para evitar errores de compilación por redefinición.
+
+C. Análisis de Datos (Método del Codo):
+La interacción más valiosa a nivel analítico ocurrió en la fase de experimentación. Tras ejecutar el programa variando $k$ desde 1 hasta 6, noté que la Medida de Dispersión Global bajaba drásticamente hasta $k=3$, y luego las mejoras eran marginales (menos de 1,000 unidades de diferencia). Le presenté estos datos a la IA, quien me confirmó que había deducido empíricamente el "Método del Codo" (Elbow Method), validando matemáticamente mi conclusión de que 3 era el número óptimo de clusters para este conjunto de datos.
+
+3. Comentario sobre la Experiencia de Aprendizaje
+El uso de la IA fue fundamental no para "escribir el código base", sino para cruzar el puente entre la teoría matemática del K-Means y las estrictas reglas de implementación de C++. Actuó como un revisor de código, permitiéndome entender errores silenciosos (como los memory leaks y las referencias perdidas) que me hubieran tomado (y me tomaron) horas diagnosticar por mi cuenta. 
+
+En otras palabras, la IA realmente me ayudó a aprender. Esto claro, porque le pedí que actuara para tal fin.
+
+Nota: Yo uso replit para el codigo, al crear el ejecutable la IA me dijo que si se ejecutaba fuera del replit no funcionaría, así que imagino que usted tendrá que crearlo desde su computadora.
