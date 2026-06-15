@@ -1,0 +1,14 @@
+PII Y COMENTARIOS
+
+
+PARTE II
+¿cómo optimizar el código?
+Si el código suma y x veces, entonces el menor velor debe serel primer parámetro: 
+mult(5)(2) suma 5 veces 2, pero mult(2)(5) suma 2 veces 5. Menos pasos, mas eficiente. 
+
+
+
+¿POR QUE HAY DOS ARCHIVOS .zym?
+hace tiempo cuando usted mandó la primera guía de zilly, viendo y practicándola (o por puro oscio)
+hice la multiplicación, sin la dulce azúcar de zilly+, de hecho, usé ese como molde para la tarea, lo subí para que le eche un ojo y 
+me diga opina (si tiene ganas de hacerlo, o tiempo). si no, vaya directo a "mult".

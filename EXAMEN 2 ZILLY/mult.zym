@@ -1,0 +1,8 @@
+::zilly+
+sys.reset
+ Z x := random(100) - 50
+Z y := random (100) - 50
+Z => Z => Z mult := fn(Z x) -> fn(Z y) -> if(x < 1, if(x > -1, 0, y - mult(-x+1)(y)), y + mult(x-1)(y));
+x
+y
+mult(x)(y)

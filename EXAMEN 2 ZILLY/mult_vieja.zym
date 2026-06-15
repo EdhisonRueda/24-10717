@@ -1,0 +1,14 @@
+sys.reset
+ Z k := random(100)
+Z c := random(100)
+Z p := random(100)
+Z => Z pred :=  fn(Z p) -> sub(1)(p);
+p
+pred(p)
+Z => Z cambio_signo := fn(Z k) -> sub(k)(0);
+Z => Z => Z suma := fn(Z k) -> fn(Z c) -> sub(cambio_signo(k))(c);
+k
+c
+suma(k)(c)
+Z => Z => Z mult := fn(Z c) -> fn(Z k) -> if(lt(1)(c), 0, suma(k)(mult(pred(c))(k)));
+mult(k)(c)
