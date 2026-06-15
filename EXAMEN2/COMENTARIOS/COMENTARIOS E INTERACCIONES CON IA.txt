@@ -28,7 +28,8 @@ C. Análisis de Datos (Método del Codo):
 La interacción más valiosa a nivel analítico ocurrió en la fase de experimentación. Tras ejecutar el programa variando k desde 1 
 hasta 6, noté que la Medida de Dispersión Global bajaba drásticamente hasta $k=3$, y luego las mejoras eran marginales 
 (menos de 1,000 unidades de diferencia). Le presenté estos datos a la IA, quien me confirmó que había deducido empíricamente el
-"Método del Codo" (Elbow Method), validando matemáticamente mi conclusión de que 3 era el número óptimo de clusters para este conjunto de datos.
+"Método del Codo" (Elbow Method), validando matemáticamente mi conclusión de que 3 era el número óptimo de clusters para este 
+conjunto de datos.
 
 3. Comentario sobre la Experiencia de Aprendizaje
 El uso de la IA fue fundamental no para "escribir el código base", sino para cruzar el puente entre la teoría matemática del K-Means
@@ -37,4 +38,5 @@ y las estrictas reglas de implementación de C++. Actuó como un revisor de cód
 
 En otras palabras, la IA realmente me ayudó a aprender. Esto claro, porque le pedí que actuara para ello.
 
-Nota: Yo uso replit para el codigo, al crear el ejecutable la IA me dijo que si se ejecutaba fuera del replit no funcionaría, así que imagino que usted tendrá que crearlo desde su computadora.
+Nota: Yo uso replit para el codigo, al crear el ejecutable la IA me dijo que si se ejecutaba fuera del replit no funcionaría, así que 
+imagino que usted tendrá que crearlo desde su computadora.
