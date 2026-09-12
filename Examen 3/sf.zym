@@ -1,7 +1,0 @@
-::zilly+
-
-Z => Z fibo := fn(Z n) => Z -> if(n < 2, n, fibo(n - 1) + fibo(n - 2));
-
-Z => Z sfib := fn(Z n) => Z -> if(n < 1, fibo(0), sfib(n - 1) + fibo(n));
-
-Z => Z zfib := fn(Z n) => Z -> fibo(n + 2) - 1;
